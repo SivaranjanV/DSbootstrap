@@ -1,0 +1,59 @@
+.task-action {
+padding: 15px;
+/*border-bottom: 1px solid #eee;*/
+}
+/* .task_content table tbody tr td:first-child {
+padding-right: 8px;
+}
+.task_content table tbody td {
+border: none;
+} */
+.task_list_hold li,.deal_list_hold li,.account_list_hold li,
+.file_list_hold li,.comt_content li {
+margin: 10px 0px 0px 0px;
+padding-left: 15px;
+}
+.task_con_list,.cmt_con_list {
+width: 100%;
+position: relative;
+display: inline-block;
+margin-bottom: 10px;
+}
+.list_col1 {
+width: 2%;
+margin-right: 10px;
+margin-top: 3px;
+}
+.list_col2 {
+width: 3%;
+margin-right: 5px;
+margin-top: 3px;
+}
+.list_col3 {
+width: 90%;
+}
+.task_con_deltail span {
+color: #888;
+font-size: 12px;
+font-weight: 400;
+}
+.task_con_deltail span.label{
+	color:#fff;
+	font-size:11px;
+}
+.task_con_deltail {
+font-size: 14px;
+line-height: 25px;
+font-weight: 500;
+}
+.task_descrp {
+font-style: italic;
+color: #888;
+font-size: 13px;
+margin-top: 10px;
+}
+.task_list_hold li:first-child,.deal_list_hold li:first-child,
+.account_list_hold li:first-child,.file_list_hold li:first-child,
+.comt_content li:first-child {
+margin: 15px 0px 0px 0px;
+}

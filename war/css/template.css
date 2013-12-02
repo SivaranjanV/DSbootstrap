@@ -1,0 +1,76 @@
+.categ_hold,.categ_list_hold {
+padding: 10px 0px 0px;
+border-right: 1px solid #ccc;
+}
+.temp-list-holder ul li,
+.categ-list-holder ul li {
+padding: 10px 15px;
+border-bottom: 1px solid #e9e9e9;
+}
+.temp-list-holder ul li:last-child,
+.categ-list-holder ul li:last-child {
+border-bottom: 0px solid #e9e9e9;
+}
+.temp-header,.categ-header {
+padding: 8px 13px 13px;
+border-bottom: 1px solid #ccc;
+}
+.temp-list-holder .edit_del_holder,
+.categ-list-holder .edit_del_holder {
+margin: 0;
+right: 0;
+top: 0;
+margin-top: 9px;
+border: 0px solid #fff;
+box-shadow: inherit;
+background-color: inherit;
+}
+.temp-list-holder,.categ-list-holder {
+overflow: auto;
+}
+.temp-list-holder ul li:hover .edit_del_holder, .categ-list-holder ul li:hover .edit_del_holder{
+	display:block;
+}
+/* .creator_name {
+display: inline-block;
+position: relative;
+width: 100%;
+} */
+.creator_name .btn-group.bootstrap-select,.creator_temp .btn-group.bootstrap-select {
+  	width: 25%;
+  	margin-right: 2%;
+  	float:left;
+  }
+  .creator_name input[type="text"],.creator_temp input[type="text"] {
+  	width: 73%;
+  }
+  .creator_name {
+margin: 28px 0px 15px;
+}
+.creator_temp,.sub_text {
+margin-bottom: 15px;
+}
+.sub_text{
+	
+}
+#temp_addcatg .modal-dialog {
+width: 300px;
+}
+#send_mail .modal-dialog {
+width: 650px;
+}
+#idTo {
+width: 89.666667%;
+float: left;
+}
+.cc,.bcc {
+margin-left: 5px;
+cursor: pointer;
+color: #888;
+top: 7px;
+position: relative;
+font-size:11px;
+}
+.cc_hold, .bcc_hold {
+display: none;
+}

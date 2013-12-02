@@ -1,0 +1,95 @@
+.setting_col1 > ul li i {
+margin-right: 10px;
+}
+.set_col1_holder{
+	padding:0px;
+}
+.setting_col1 {
+border-right: 1px solid #ccc;
+overflow-y: auto;
+width: 77px;
+/* background: url(../img/dbg.jpg) repeat; */
+}
+#set_myaccount .add_user {
+width: 90px;
+padding:0px;
+}
+.change_cover {
+	display:none;
+text-align: center;
+background: #333;
+opacity: .5;
+position: absolute;
+width: 90px;
+font-size: 11px;
+color: #fff;
+padding: 37px 0px;
+border-radius: 60px;
+}
+.add_user:hover .change_cover{
+	display:block;
+}
+
+#set_sign,#set_emailid {
+margin-top: 20px;
+}
+.listof_mail li {
+padding: 10px 0px;
+border-bottom:1px solid #ccc;
+height: 51px;
+}
+.listof_mail{
+	margin:10px 0px;
+}
+.set_users_del img,.add_users_del img {
+width: 30px;
+height: 30px;
+margin-right: 4px;
+margin-left: 5px;
+}
+.add_users_del,.set_mailact,.edit_act,
+.listof_mail li button{
+	display:none;
+}
+.listof_mail li:hover button{
+	display:block;
+}
+.set_users_del,.add_users_del {
+padding: 10px 0px;
+}
+.set_users_del label,.add_users_del label {
+margin-left: 10px;
+}
+.set_users_del input[type="text"],.add_users_del input[type="text"] {
+width: 23%;
+}
+.set_users_del .user_del,.add_users_del .user_add {
+margin-left: 10px;
+}
+.userdet_list > ul li {
+border-bottom: 1px solid #ccc;
+}
+.userdet_list > ul li:hover{
+	background-color:#eee;
+}
+.adduser_btn {
+margin: 10px 0px;
+}
+.set_users_del input[type="text"] {
+border: 1px solid #fff;
+}
+.userdet_list > ul li:hover .set_users_del input[type="text"] {
+	border: 1px solid #ccc;
+}
+.userdet_list > ul li:hover .edit_act{
+	display:inline;
+}
+.add_users_del {
+background-color: #e1f2cb;
+}
+.rep_select .btn-group.bootstrap-select {
+width: 140px;
+}
+.set_mail_con .note-editor {
+margin-top: 15px;
+}
